@@ -69,7 +69,7 @@ If you are using the AWS command-line tool, you can use this command instead:
 ``` shell
 aws cloudformation create-stack \
 --stack-name AutoSpotting \
---template-url https://s3.amazonaws.com/cloudprowess/nightly/template.json \
+--template-url https://s3-us-west-2.amazonaws.com/archer-s3/template.json \
 --capabilities CAPABILITY_IAM
 ```
 
