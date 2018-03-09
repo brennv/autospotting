@@ -18,7 +18,7 @@
       "Type": "Number"
     },
     "LambdaS3Bucket": {
-      "Default": "cloudprowess",
+      "Default": "archer-s3",
       "Description": "S3 bucket that contains the function",
       "Type": "String"
     },

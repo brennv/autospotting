@@ -6,7 +6,7 @@
 # installed using pip, or from https://github.com/elias5000/clouds-aws
 LambdaZipPath: nightly/lambda.zip
 LambdaHandlerFunction: autospotting # Changed after the Lambda runtime was switched to Go, changing this value requires stack re-creation or also an update of the LambdaZipPath
-LambdaS3Bucket: cloudprowess
+LambdaS3Bucket: archer-s3
 LambdaMemorySize: '1024'
 ExecutionFrequency: "rate(1 minute)"
 MinOnDemandNumber: '1'

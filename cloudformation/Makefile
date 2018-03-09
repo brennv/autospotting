@@ -4,7 +4,7 @@ install:
 		cp stacks/AutoSpotting/template.json ../build/s3/nightly/
 
 upload: install
-		aws s3 sync ../build/s3/ s3://cloudprowess/
+		aws s3 sync ../build/s3/ s3://archer-s3/
 
 create:
 		clouds update -c AutoSpotting
